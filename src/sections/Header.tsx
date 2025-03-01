@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 
 export const Header = () => {
-  const [activeSection, setActiveSection] = useState('home');
+  const [activeSection, setActiveSection] = useState<string>('home');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -33,7 +33,7 @@ export const Header = () => {
   }, []);
 
   // Custom scroll function with slower animation
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = (sectionId: string) => {
     const targetElement = document.getElementById(sectionId);
     if (!targetElement) return;
     
@@ -42,10 +42,10 @@ export const Header = () => {
     const distance = targetPosition - startPosition;
     
     // Longer duration for slower animation (1500ms = 1.5 seconds)
-    const duration = 1300;
-    let startTime = null;
+    const duration = 1250;
+    let startTime: number | null = null;
     
-    function animation(currentTime) {
+    function animation(currentTime: number) {
       if (startTime === null) startTime = currentTime;
       const timeElapsed = currentTime - startTime;
       const progress = Math.min(timeElapsed / duration, 1);
@@ -61,7 +61,7 @@ export const Header = () => {
     }
     
     // Cubic easing function for smoother start and end
-    function easeInOutCubic(t) {
+    function easeInOutCubic(t: number): number {
       return t < 0.5 
         ? 4 * t * t * t 
         : 1 - Math.pow(-2 * t + 2, 3) / 2;
@@ -70,7 +70,7 @@ export const Header = () => {
     requestAnimationFrame(animation);
   };
 
-  const handleNavClick = (e, sectionId) => {
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, sectionId: string) => {
     e.preventDefault();
     setActiveSection(sectionId);
     scrollToSection(sectionId);
