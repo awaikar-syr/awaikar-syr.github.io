@@ -1,5 +1,6 @@
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import grainImage from "@/assets/images/grain.jpg";
+import Link from "next/link";
 
 export const ContactSection = () => {
 	return (
@@ -19,15 +20,16 @@ export const ContactSection = () => {
 							</h2>
 							<p className="text-sm md:text-base mt-2">
 								{" "}
-								Ready to bring your next project to life? Let&apos;s connect and
-								discuss how I can help you achieve your goals.
+								I love turning data into impact and I&apos;m ready to contribute. Let&apos;s connect and explore how I can add value to your team!
 							</p>
 						</div>
             <div>
-              <button className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900">
-                <span className="font-semibold">Contact Me</span>
-                <ArrowUpRightIcon className="size-4" />
-              </button>
+              <Link href="https://qrco.de/bfmRNu" target="_blank" rel="noopener noreferrer">
+                <button className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900 hover:bg-gray-800 transition-colors">
+                  <span className="font-semibold">Contact Me</span>
+                  <ArrowUpRightIcon className="size-4" />	
+                </button>
+              </Link>
             </div>
 					</div>
 				</div>

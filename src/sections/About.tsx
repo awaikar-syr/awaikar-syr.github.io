@@ -3,50 +3,48 @@ import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 import bookImage from "@/assets/images/book-cover.png";
 import Image from "next/image";
-import JavaScriptIcon from "@/assets/icons/square-js.svg";
-import HTMLIcon from "@/assets/icons/html5.svg";
-import CSSIcon from "@/assets/icons/css3.svg";
-import ReactIcon from "@/assets/icons/react.svg";
-import ChromeIcon from "@/assets/icons/chrome.svg";
-import GithubIcon from "@/assets/icons/github.svg";
 import mapImage from "@/assets/images/map.png";
 import smileMemoji from "@/assets/images/memoji-smile.png";
 import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItems } from "@/components/ToolboxItems";
 import { motion } from "framer-motion";
 import { useRef } from "react";
+import {RiFileExcel2Line} from "react-icons/ri"; 
+import { SiMysql, SiTableau, SiPython, SiR, SiGoogleanalytics } from "react-icons/si";
+
 
 const toolboxItems = [
 	{
-		title: "JavaScript",
-		iconType: JavaScriptIcon,
+		title: "SQL",
+		iconType: SiMysql,
 	},
 	{
-		title: "HTML5",
-		iconType: HTMLIcon,
+		title: "Excel",
+		iconType: RiFileExcel2Line,
 	},
 	{
-		title: "CSS3",
-		iconType: CSSIcon,
+		title: "Tableau",
+		iconType: SiTableau,
+	},
+
+	{
+		title: "Python",
+		iconType: SiPython,
 	},
 	{
-		title: "React",
-		iconType: ReactIcon,
+		title: "R",
+		iconType: SiR,
 	},
 	{
-		title: "Chrome",
-		iconType: ChromeIcon,
-	},
-	{
-		title: "Github",
-		iconType: GithubIcon,
+		title: "Google Analytics",
+		iconType: SiGoogleanalytics,
 	},
 ];
 
 const hobbies = [
 	{
-		title: "Painting",
-		emoji: "🎨",
+		title: "Cooking",
+		emoji: "🍳",
 		left: "5%",
 		top: "5%",
 	},
@@ -133,7 +131,7 @@ export const AboutSection = () => {
 					<div className="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-3 gap-8">
 						<Card className="h-[320px] p-0 flex flex-col md:col-span-3 lg:col-span-2">
 							<CardHeader
-								title="Beyond the Code"
+								title="Beyond the Data"
 								description="Explore my interests and hobbies beyond the digital realm."
 								className="px-6 py-6"
 							/>

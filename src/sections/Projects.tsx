@@ -10,41 +10,44 @@ import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "Syracuse University",
+    year: "2024",
+    title: "Career Services Analytics Tool",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: " Reduced IT dependency by 40% " },
+      { title: "Enhanced student career readiness by 25%" },
+      { title: "Built interactive Tableau dashboards" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
+    link: "https://www.github.com/awaikar-syr",
     image: darkSaasLandingPage,
   },
-  {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
-    results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
-    ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
-  },
+
   {
     company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    year: "2024",
+    title: "NBA Playoff Prediction Model",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Achieved 80% accuracy" },
+      { title: "Analyzed 10+ seasons" },
+      { title: "Identified key winning factors" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
+    link: "https://www.github.com/awaikar-syr",
     image: aiStartupLandingPage,
   },
+
+  {
+    company: "Snehankit Apartments",
+    year: "2023",
+    title: " Market Expansion Strategy for a Startup",
+    results: [
+      { title: "Doubled market reach in 6 months" },
+      { title: "Increased revenue by 40%" },
+      { title: "Boosted conversion rates by 30%" },
+    ],
+    link: "https://www.linkedin.com/company/snehankit-apartments/about/",
+    image: lightSaasLandingPage,
+  },
+  
 ];
 
 export const ProjectsSection = () => {
@@ -54,7 +57,7 @@ export const ProjectsSection = () => {
       <SectionHeader 
         eyebrow="Real-world Results" 
         title="Featured Projects" 
-        description="See how I transformed concepts into engaging digital experiences." 
+        description="See how I transformed data into actionable insights and business impact." 
       />
       
       
@@ -83,9 +86,9 @@ export const ProjectsSection = () => {
                         </li>
                       ))}
                     </ul>
-                    <a href = {project.link}>
+                    <a href = {project.link} target="_blank" rel="noopener noreferrer">
                     <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
-                      <span>Visit Live Site</span>
+                      <span>View Project</span>
                       <ArrowUpRightIcon className="size-4"/>
                       </button>
                     </a>
