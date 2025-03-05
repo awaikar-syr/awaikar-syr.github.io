@@ -18,7 +18,7 @@ const portfolioProjects = [
       { title: "Enhanced student career readiness by 25%" },
       { title: "Built interactive Tableau dashboards" },
     ],
-    link: "https://www.github.com/awaikar-syr",
+    link: "https://su-career-ibot.streamlit.app/",
     image: darkSaasLandingPage,
   },
 
@@ -44,7 +44,7 @@ const portfolioProjects = [
       { title: "Increased revenue by 40%" },
       { title: "Boosted conversion rates by 30%" },
     ],
-    link: "https://www.linkedin.com/company/snehankit-apartments/about/",
+    link: "https://www.linkedin.com/in/ankitwaikar/",
     image: lightSaasLandingPage,
   },
   

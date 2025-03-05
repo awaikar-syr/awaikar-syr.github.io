@@ -10,9 +10,9 @@ import { Fragment } from "react";
 
 const testimonials = [
   {
-    name: "Alex Turner",
-    position: "Marketing Manager @ TechStartups",
-    text: "Alex was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
+    name: "Yasin Shah",
+    position: "Founder & CEO @ Technocolabs Softwares Inc",
+    text: "Mentoring Ankit was a pleasure. His ability to translate complex data into actionable insights using SQL, Python, and data visualization tools like Power BI and Tableau set him apart. He showcased strong analytical thinking, requirement gathering skills, and business acumen, enabling him to identify trends and drive strategic decisions. His proficiency in stakeholder communication and problem-solving made him an invaluable asset to our team. Ankit’s structured approach to business analysis, combined with his adaptability and keen eye for detail, would make him an excellent addition to any organization.",
     avatar: memojiAvatar1,
   },
   {
