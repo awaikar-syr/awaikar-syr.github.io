@@ -15,7 +15,7 @@ const portfolioProjects = [
     title: "Career Services Analytics Tool",
     results: [
       { title: " Reduced IT dependency by 40% " },
-      { title: "Enhanced student career readiness by 25%" },
+      { title: "Enhanced student career readiness by 25%" }, 
       { title: "Built interactive Tableau dashboards" },
     ],
     link: "https://su-career-ibot.streamlit.app/",

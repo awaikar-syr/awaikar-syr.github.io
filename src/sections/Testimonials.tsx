@@ -11,34 +11,28 @@ import { Fragment } from "react";
 const testimonials = [
   {
     name: "Yasin Shah",
-    position: "Founder & CEO @ Technocolabs Softwares Inc",
-    text: "Mentoring Ankit was a pleasure. His ability to translate complex data into actionable insights using SQL, Python, and data visualization tools like Power BI and Tableau set him apart. He showcased strong analytical thinking, requirement gathering skills, and business acumen, enabling him to identify trends and drive strategic decisions. His proficiency in stakeholder communication and problem-solving made him an invaluable asset to our team. Ankit’s structured approach to business analysis, combined with his adaptability and keen eye for detail, would make him an excellent addition to any organization.",
+    position: "Working with Ankit was a great experience. He has a natural ability to break down complex data and turn it into insights that actually make sense. His skills in SQL, Python, and Power BI helped us make smarter business decisions faster. More than just technical skills, he’s a great problem solver who knows how to ask the right questions and get to the heart of a challenge.",
     avatar: memojiAvatar1,
   },
   {
-    name: "Olivia Green",
-    position: "Head of Design @ GreenLeaf",
-    text: "Working with Alex was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website has exceeded our expectations.",
-    avatar: memojiAvatar2,
+    name: "Matthew Maloney",
+    position: "Professor of Visual Analytics @ Syracuse University",
+    text: "Ankit is exceptional at turning complex data into clear, interactive dashboards. In our Visual Analytics course, he played a key role in a renewable energy investment project, making insights easy for non-technical stakeholders. His ability to communicate data-driven decisions and business impact sets him apart. He’s a quick learner, analytical thinker, and natural leader.",
+    avatar: memojiAvatar5,
   },
   {
-    name: "Daniel White",
-    position: "CEO @ InnovateCo",
-    text: "Alex's ability to create seamless user experiences is unmatched. Our website has seen a significant increase in conversions since launching the new design. We couldn't be happier.",
+    name: "Jeffrey Saltz",
+    position: "Professor of AI & Human-Centered Design  @ Syracuse University",
+    text: "Ankit is a strategic thinker with strong execution skills. In our Human-Centered AI course, he led a project that automated career insights for students and employers, cutting manual effort by 40%. His ability to understand business needs, work with AI, and simplify insights for decision-makers makes him stand out.",
     avatar: memojiAvatar3,
   },
   {
-    name: "Emily Carter",
-    position: "Product Manager @ GlobalTech",
-    text: "Alex is a true frontend wizard. He took our complex product and transformed it into an intuitive and engaging user interface. We're already seeing positive feedback from our customers.",
+    name: "Disha Negi",
+    position: "Cloud Engineer @iConsult Collaborative",
+    text: "Ankit thinks like a product leader and executes like an analyst. In our AI-driven Career Analytics Tool, he ensured our solution was user-friendly, data-driven, and business-impactful, reducing external dependencies by 40%. His ability to understand business problems, work across teams, and simplify complex data makes him a perfect fit for Business Analyst and Product roles.",
     avatar: memojiAvatar4,
   },
-  {
-    name: "Michael Brown",
-    position: "Director of IT @ MegaCorp",
-    text: "Alex's work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
-    avatar: memojiAvatar5,
-  },
+ 
 ];
 
 export const TestimonialsSection = () => {
