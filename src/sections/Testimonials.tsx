@@ -9,16 +9,18 @@ import { Card } from "@/components/Card";
 import { Fragment } from "react";
 
 const testimonials = [
-  {
-    name: "Yasin Shah",
-    position: "Working with Ankit was a great experience. He has a natural ability to break down complex data and turn it into insights that actually make sense. His skills in SQL, Python, and Power BI helped us make smarter business decisions faster. More than just technical skills, he’s a great problem solver who knows how to ask the right questions and get to the heart of a challenge.",
-    avatar: memojiAvatar1,
-  },
+
   {
     name: "Matthew Maloney",
     position: "Professor of Visual Analytics @ Syracuse University",
     text: "Ankit is exceptional at turning complex data into clear, interactive dashboards. In our Visual Analytics course, he played a key role in a renewable energy investment project, making insights easy for non-technical stakeholders. His ability to communicate data-driven decisions and business impact sets him apart. He’s a quick learner, analytical thinker, and natural leader.",
     avatar: memojiAvatar5,
+  },
+  {
+    name: "Yasin Shah",
+    position: "Founder & CEO @ Technocolabs Softwares",
+    text:"Working with Ankit was a great experience. He has a natural ability to break down complex data and turn it into insights that actually make sense. His skills in SQL, Python, and Power BI helped us make smarter business decisions faster. More than just technical skills, he’s a great problem solver who knows how to ask the right questions and get to the heart of a challenge.",
+    avatar: memojiAvatar1,
   },
   {
     name: "Jeffrey Saltz",
